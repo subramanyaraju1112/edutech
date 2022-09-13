@@ -8,9 +8,11 @@
     padding: 10px 0;
   }
   
-  .logo {
+  .logo a {
     font-weight: 600;
     font-size: large;
+    text-decoration: none;
+  color: black;
   }
   
   .space {
@@ -18,10 +20,12 @@
   }
   
   .search_btn {
+    margin-left: 5px;
     padding-left: 5px;
     padding-right: 5px;
     height: 30px;
     border: none;
+    background: none;
   }
   
   .search_btn:hover {
@@ -29,8 +33,9 @@
   }
   
   .search_input {
+    padding-left: 5px;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 0px;
     border: none;
   }
   
@@ -134,8 +139,9 @@
     cursor: pointer;
   }
   
-  .footer-col ul li a:hover {
+  .footer-col ul li:hover {
     padding-left: 10px;
+    text-decoration: underline;
   }
   
   .footer .social-links a {
