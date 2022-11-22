@@ -7,35 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="edu_sign_up_style.css">
+    <script src="edu_sign_up.js" defer></script>
     <title>sign-up</title>
 </head>
 
 <body>
     <div class="sign_up">
-    <form>
+    <div>
             <h5>Sign-Up and start learning.</h5>
             <div class="mb-3">
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input type="text" class="form-control" id="full_name" aria-describedby="emailHelp"
                     placeholder="Full Name">
             </div>
             <div class="mb-3">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                     placeholder="Email">
             </div>
             <div class="mb-3">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input type="password" class="form-control" id="password" placeholder="Password">
             </div>
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Send me special offers, personalised
                     recommendations, and learning tips.</label>
             </div>
-            <button type="submit" class="btn btn-primary">Sign-Up</button>
+            <button id="sign_up_btn" type= "submit" class="btn btn-primary">Sign-Up</button>
             <p>By signing up, you agree to our <u>Terms of Use</u> and <u> Privacy Policy.</u></p>
             <hr>
-            <p class="acc">Already have an account? <u class="color">Log In</u></p>
+            <p class="acc">Already have an account? <a class="color" href="./edu_login.html" >Log In</a></p>
 
-    </form>
+    </div>
     </div>
 </body>
 

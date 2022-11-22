@@ -40,6 +40,11 @@
   background: none;
 }
 
+.price {
+  color: black;
+  font-weight: 500;
+}
+
 .search_btn:hover {
   color: #0d6efd;
 }
@@ -80,6 +85,16 @@
 
 .fa-sign-in {
   margin-right: 10px;
+}
+
+.fa-cart-shopping {
+  margin-right: 10px;
+  padding-left: 40px;
+}
+
+.fa-cart-shopping:hover {
+  color: #0d6efd;
+  cursor: pointer;
 }
 
 h1 {
